@@ -16,4 +16,4 @@ def handle_post():
     return f'Hello, World! (POST)\nReceived data: {data}'
 
 if __name__ == '__main__':
-    app.run(port=3000, debug=True)
+    app.run(port=3000)
